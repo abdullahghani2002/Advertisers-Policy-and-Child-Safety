@@ -26,7 +26,7 @@ labels for age appropriateness and relevance.
 
 ## 2. Directory Structure
 
-The project is organized into two main folders: `Code` and `Data`.
+The project is organized into three main folders: `Code`, `Data` and `Classifier`.
 
 ```
 .
@@ -36,11 +36,19 @@ The project is organized into two main folders: `Code` and `Data`.
 │   │   └── robustness_check.ipynb
 │   └── Crawler/
 │       └── script.py
-└── Data/
-    ├── videos_dataset.csv
-    ├── labeled_sample.csv
-    ├── ad_metadata.csv
-    └── main_videos.csv
+├── Data/
+│   ├── videos_dataset.csv
+│   ├── labeled_sample.csv
+│   ├── ad_metadata.csv
+│   └── main_videos.csv
+└── Classifier/
+    ├── classifier.ipynb
+    ├── requirements.txt
+    ├── README.md
+    ├── plots/
+    │   └── (contains generated figures and plots)
+    └── models/
+        └── (contains saved model files)
 ```
 
 ## 3. Data
@@ -127,3 +135,12 @@ This directory contains the web scraping script.
         ```bash
         python script.py [video_ids_file] [profile_directory]
         ```
+
+## 5. Classifier
+
+The `Classifier` folder contains all code and instructions for running the automated ad appropriateness classifier.
+
+1. The classifier is implemented in a Jupyter notebook (`classifier.ipynb`) using Python.
+2. All required dependencies are listed in `requirements.txt` for easy installation.
+3. Running the notebook takes approximately 3-5 minutes for a complete run.
+4. All evaluation results and performance metrics are presented within the notebook.
