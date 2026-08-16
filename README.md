@@ -18,8 +18,8 @@ also provide cross-regional evidence linking policy to safety out-
 comes: children in regions with weaker regulation face ∼3.6× more
 inappropriate exposure, reflecting weaker verification enforcement,
 language-specific risks, and regulatory gaps. Finally, a metadata-
-only baseline (Random Forest) attains 84.9% accuracy and 76.9%
-F1 for automated appropriateness detection, indicating feasibility
+only baseline (Random Forest) attains 84.26% accuracy and 82.9%
+weighted F1 for automated appropriateness detection, indicating feasibility
 for scalable, advertiser-aware moderation. To support reproducible
 research, we release a corpus of 5,611 video ads with qualitative
 labels for age appropriateness and relevance.
