@@ -142,5 +142,5 @@ The `Classifier` folder contains all code and instructions for running the autom
 
 1. The classifier is implemented in a Jupyter notebook (`classifier.ipynb`) using Python.
 2. All required dependencies are listed in `requirements.txt` for easy installation.
-3. Running the notebook takes approximately 3-5 minutes for a complete run.
+3. Running the notebook takes approximately 5-10 minutes for a complete run.
 4. All evaluation results and performance metrics are presented within the notebook.

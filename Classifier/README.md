@@ -12,6 +12,6 @@ This folder contains the feature engineering, model selection, and evaluation fo
 
 Open and run the notebook file in your preferred Jupyter environment:
 
-The notebook takes approximately **3-5 minutes** to complete execution. All evaluation results are included within the notebook.
+The notebook takes approximately **5-10 minutes** to complete execution. All evaluation results are included within the notebook.
 
 ---
